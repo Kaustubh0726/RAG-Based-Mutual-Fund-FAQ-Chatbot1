@@ -176,7 +176,7 @@ The assistant uses only **official public sources**:
 - **AMFI**
   - Riskometer explanation  
   - Investor FAQs  
-  - Scheme information, NAV history, knowledge center  
+  - Scheme information, NAV history, knowledge center 
 
 - **SEBI**
   - Investor education corner  
