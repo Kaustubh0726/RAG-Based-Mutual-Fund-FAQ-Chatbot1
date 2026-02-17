@@ -2,7 +2,7 @@
 import re
 from typing import Tuple
 
-from config import EDUCATIONAL_LINK, AMFI_FAQ_LINK
+from .config import EDUCATIONAL_LINK, AMFI_FAQ_LINK
 
 # Patterns that suggest advice / recommendation / opinion (we refuse these)
 ADVICE_PATTERNS = [

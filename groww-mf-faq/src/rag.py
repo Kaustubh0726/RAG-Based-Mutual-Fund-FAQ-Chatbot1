@@ -6,14 +6,14 @@ import chromadb
 from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 
-from config import (
+from .config import (
     CHROMA_DIR,
     EMBEDDING_MODEL,
     TOP_K,
     LAST_UPDATED_PREFIX,
     SOURCES_NOTE,
 )
-from corpus_loader import get_documents_for_retrieval
+from .corpus_loader import get_documents_for_retrieval
 
 
 def get_embedding_model():

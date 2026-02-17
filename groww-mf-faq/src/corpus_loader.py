@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from typing import List, Tuple
 
-from config import CORPUS_DIR, CHUNK_SIZE, CHUNK_OVERLAP
+from .config import CORPUS_DIR, CHUNK_SIZE, CHUNK_OVERLAP
 
 
 def _extract_source_from_text(text: str) -> str | None:
